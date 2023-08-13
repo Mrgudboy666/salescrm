@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+/* SIGNUP&LOGIN page CSS */
+
+body{
+  background: lightgray;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: alternate-reverse;
+}
+
+.container h2{
+  padding: 5px;
+  color: black;
+  text-align: left;
+  font-weight: revert;
+  margin-bottom: 5px;
+  margin-top: 0px;    
+}
+
+
+/* input box */
+
+.form-group{
+  margin-bottom:5px;
+}
+
+/* Customize the form input boxes */
+.form-design { 
+  height: 25px; 
+  padding: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  color: #444444;
+  border-radius: 10px;
+  border-color: black;
+  transition: all 0.2s ease;
+
+}
+
+/* Add focus styles to form input boxes when clicked */
+.form-control:focus, 
+.form-control:valid{
+  border-color: black;
+}
+
+
+/* button customization*/
+
+.custom-button button{
+  background-color: blue;
+  color: white;
+  text-align:center;
+}
+
+.rounded-button {
+  border-radius: 10px; 
+  padding: 10px 20px; 
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*Header 5 class*/
+
+.rirect-text h5{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 4px;   
+  text-align: left;
+  }
+
+
+/* HOMEPAGE CSS BEGINS*/
+
+.homepage{
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.dash{
+  padding-bottom: 30px;
+}
+
+.dash h1{
+  padding-top: 30px;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  height: 110vh;
+  background: #fff;
+}
+
+nav i{
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.navbar{
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul{
+  margin: 0 auto;
+}
+
+li{
+  padding-bottom: 30px;
+}
+
+li a{
+  font-size: 16px;
+  color: blue;
+}

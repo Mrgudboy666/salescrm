@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: lightgray;
+  font-family: 'Poppins', sans-serif;
+}
+
+.homepage{
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.dash{
+  padding-bottom: 30px;
+}
+
+.dash h1{
+  padding-top: 30px;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  height: 110vh;
+  background: #fff;
+}
+
+nav i{
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.navbar{
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul{
+  margin: 0 auto;
+}
+
+li{
+  padding-bottom: 30px;
+}
+
+li a{
+  font-size: 16px;
+  color: blue;
+}
+
+/*MAIN BODY*/
+
+.main{
+  width: 100%;
+}
+.main-top{
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(43, 43, 43);
+}
+.main-body{
+  padding: 10px 10px 10px 20px;
+}
+h1{
+  margin: 20px 10px;
+}
+
+/*SEARCH BAR*/
+
+.search_bar{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.search_bar input{
+  width: 50%;
+  padding: 10px;
+  border: 1px solid rgb(190, 190, 190);
+}
+.search_bar input:focus{
+  border: 1px solid blueviolet;
+}
+.search_bar select{
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+  margin-left: 2rem;
+}
+.search_bar .filter{
+  width: 300px;
+}
